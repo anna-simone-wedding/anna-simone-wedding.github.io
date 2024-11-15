@@ -20,27 +20,23 @@
                     <!-- <li class="{% if page.url == '/' %}active{% endif %}">
                         <a href="/"> Our Story</a>
                     </li> -->
-                    <li class="{% if page.url == '/celebrations/' %}active{% endif %}">
-                        <a href="/celebrations">Celebrations</a>
+                    <li class="{% if page.url == '/programma/' %}active{% endif %}">
+                        <a href="/programma">Programma</a>
                     </li>
                     <!-- <li class="{% if page.url == '/people/' %}active{% endif %}">
                         <a href="/people">People</a>
                     </li> -->
-                    <li class="{% if page.url == '/details/' %}active{% endif %}">
-                        <a href="/details">Details</a>
+                    <li class="{% if page.url == '/logistica/' %}active{% endif %}">
+                        <a href="/logistica">Logistica</a>
                     </li>
-                    {% if site.faq[site.context] %}
-                      <li class="{% if page.url == '/faq/' %}active{% endif %}">
-                        <a href="/faq">FAQ</a>
-                      </li>
-                    {% endif %}
-                    {% if site.guide[site.context] %}
-                      <li class="{% if page.url == '/faq/' %}active{% endif %}">
-                        <a href="/guide">City Guide</a>
-                      </li>
-                    {% endif %}
-                    <li class="{% if page.url == '/gift/' %}active{% endif %}">
-                      <a href="/gift">Gift</a>
+                    <li class="{% if page.url == '/experiences/' %}active{% endif %}">
+                      <a href="/experiences">Experiences</a>
+                    </li>
+                    <li class="{% if page.url == '/accommodation/' %}active{% endif %}">
+                      <a href="/accommodation">Accommodation</a>
+                    </li>
+                    <li class="{% if page.url == '/regali/' %}active{% endif %}">
+                      <a href="/regali">Regali</a>
                     </li>
                     {% if site.context == "chi" %}
                         <li class="notification-link">

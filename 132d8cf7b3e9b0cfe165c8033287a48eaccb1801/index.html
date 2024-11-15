@@ -5,20 +5,31 @@ invisible_nav: true
 
 <!-- Intro Header -->
 <header class="intro">
-    <div class="intro-body">
+    <div class="intro-body" style="margin-left: auto;">
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-md-offset-2">
+                     <p class="intro-text">
+                        Celebriamo insieme il matrimonio di
+                    </p>    
                     <h1 class="brand-heading">Anna & Simone</h1>
                     <p class="intro-text">
+<!--                      Vi invitano a celebrare insieme
+                        <br>
+                        il loro MATRIMONIO -->   
+                        <br>
                       {% if site.context == 'lbc' %}
-                        June 21, 2025
+                        21 Giugno 2025
+                        <br>
+                        Agriturismo Pieve a Salti, Toscana, Italia
+                        <br>
+                        Ore 17.30
+                        {% else %}
+                        21 Giugno 2025
                         <br>
                         Pieve a Salti, Tuscany, Italy
-                      {% else %}
-                        June 21, 2025
                         <br>
-                        Pieve a Salti, Tuscany, Italy
+                        Ore 17.30                        
                       {% endif %}
                       <br>
                     </p>
@@ -28,7 +39,7 @@ invisible_nav: true
     </div>
 </header>
 
-<section id="ourstory" class="container content-section text-center">
+<!-- <section id="ourstory" class="container content-section text-center">
     <div class="row">
         <div class="col-lg-10 col-lg-offset-1">
             <h2>Our Story</h2>
@@ -132,4 +143,4 @@ invisible_nav: true
             </p>
         </div>
     </div>
-</section>
+</section> -->
