@@ -6,12 +6,109 @@ billboard_class: billboard-bridge-walk
 
 {% if site.guide[site.context] %}
   <section class="container content-section text-center">
+<div>
     <p>
-      In case you need some inspiration when deciding what to do in Chicago,
-      here are a few of our favorites!
+      I nostri ospiti sono invitati a prenotare i loro alloggi in una a scelta tra queste strutture:
     </p>
-
-    {% for section in site.guide[site.context] %}
+  </div>
+<div>  
+<table>
+    <thead>
+        <tr text-align: left;>
+            <th>Link posto</th>
+            <th>Luogo</th>
+            <th>Prezzo per 2 notti (€)</th>
+            <th>Numero persone</th>
+            <th>Prezzo a notte a persona (€)</th>
+            <th>Note</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr  text-align: left;>
+            <td><a href="https://www.booking.com/hotel/it/casa-per-l-osticcio-rooms.html?ssne=Montalcino&ssne_untouched=Montalcino&highlighted_hotels=6552795&ss=Montalcino&dest_id=-122142&dest_type=city&hp_avform=1&origin=hp&do_availability_check=1&label=en-it-booking-desktop-orurobL4HlxlPTbh4QCUzwS652796016213%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-65526620%3Alp9197889%3Ali%3Adec%3Adm&aid=2311236&lang=it&sb=1&src_elem=sb&src=hotel&checkin=2025-06-20&checkout=2025-06-22&group_adults=5&no_rooms=1&group_children=0&activeTab=main#map_closed" target="_blank">Casa Osticcio</a> </td>
+            <td>Montalcino</td>
+            <td>325</td>
+            <td>5</td>
+            <td>32.5</td>
+            <td>1 casa da 5</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.booking.com/hotel/it/casa-mustiola.it.html?label=en-it-booking-desktop-orurobL4HlxlPTbh4QCUzwS652796016213%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-65526620%3Alp9197889%3Ali%3Adec%3Adm&aid=2311236&ucfs=1&checkin=2025-06-20&checkout=2025-06-22&dest_id=-122142&dest_type=city&group_adults=2&no_rooms=1&group_children=0&nflt=oos%3D1&matching_block_id=917230703_363248145_2_0_0&atlas_src=sr_iw_title" target="_blank">Casa Mustiola </a> </td>
+            <td>Montalcino</td>
+            <td>1197</td>
+            <td>11</td>
+            <td>54.41</td>
+            <td>4 camere: 2 doppie, 1 tripla e 1 quadrupla</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.booking.com/hotel/it/il-palazzo-del-cardinale.it.html?label=en-it-booking-desktop-orurobL4HlxlPTbh4QCUzwS652796016213%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-65526620%3Alp9197889%3Ali%3Adec%3Adm&aid=2311236&ucfs=1&checkin=2025-06-20&checkout=2025-06-22&dest_id=-122142&dest_type=city&group_adults=2&no_rooms=1&group_children=0&nflt=oos%3D1&matching_block_id=1045731506_382477711_2_1_0&atlas_src=sr_iw_title" target="_blank">Palazzo del Cardinale</a></td>
+            <td>Montalcino</td>
+            <td>1496</td>
+            <td>12</td>
+            <td>62.33</td>
+            <td>6 camere doppie</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.holidaysantangeloincolle.eu/index.php" target="_blank"> Gastone</a></td>
+            <td>Sant'Angelo in Colle</td>
+            <td>1120</td>
+            <td>14</td>
+            <td>40</td>
+            <td>2 appartamenti: 1 doppia e 1 divano letto; poi 1 appartamento 2 doppie e 1 divano letto</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.booking.com/hotel/it/scalette-di-piazza-b-amp-b-montalcino.html?ssne=Montalcino&ssne_untouched=Montalcino&highlighted_hotels=1379878&ss=Montalcino&dest_id=-122142&dest_type=city&hp_avform=1&origin=hp&do_availability_check=1&label=en-it-booking-desktop-orurobL4HlxlPTbh4QCUzwS652796016213%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-65526620%3Alp9197889%3Ali%3Adec%3Adm&aid=2311236&lang=it&sb=1&src_elem=sb&src=hotel&checkin=2025-06-20&checkout=2025-06-22&group_adults=12&no_rooms=1&group_children=0#group_recommendation" target="_blank">Scalette di Piazza</a> </td>
+            <td>Montalcino</td>
+            <td>1010</td>
+            <td>8</td>
+            <td>63.13</td>
+            <td>4 double rooms</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.booking.com/hotel/it/agriturismo-percenna.it.html?label=en-it-booking-desktop-orurobL4HlxlPTbh4QCUzwS652796016213%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-65526620%3Alp9197889%3Ali%3Adec%3Adm&aid=2311236&ucfs=1&checkin=2025-06-20&checkout=2025-06-22&dest_id=-122142&dest_type=city&group_adults=2&no_rooms=1&group_children=0&nflt=oos%3D1&matching_block_id=112297104_309203277_2_33_0&atlas_src=sr_iw_title" target="_blank">Agriturismo Percenna</a></td>
+            <td>Buonconvento</td>
+            <td>1875</td>
+            <td>14</td>
+            <td>66.96</td>
+            <td>3 doppie, 2 quadruple</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.laripolina.it/alloggi/" target="_blank">La Ripolina poderi</a> </td>
+            <td>Buonconvento</td>
+            <td>1170</td>
+            <td>9</td>
+            <td>65</td>
+            <td>1 tripla 3 doppia</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.laripolina.it/pieve-di-piana/" target="_blank">La ripolina Pieve di Piana</a></td>
+            <td>Buonconvento</td>
+            <td>2600</td>
+            <td>20</td>
+            <td>65</td>
+            <td>10 doppie</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.booking.com/hotel/it/villa-s-maria.it.html?label=en-it-booking-desktop-orurobL4HlxlPTbh4QCUzwS652796016213%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-65526620%3Alp9197889%3Ali%3Adec%3Adm&sid=f5b6da06ccd8394cf655fe5593b2b07b&aid=2311236&ucfs=1&checkin=2025-06-20&checkout=2025-06-22&dest_id=-122142&dest_type=city&group_adults=2&no_rooms=1&group_children=0&nflt=oos%3D1&matching_block_id=81691701_329648159_2_0_0&atlas_src=sr_iw_title" target="_blank">Villa Santa Maria </a> </td>
+            <td>Montalcino</td>
+            <td>930</td>
+            <td>12</td>
+            <td>38.75</td>
+            <td>3 quadruple</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<br><br>
+<div>
+<p>
+  La scelta di queste strutture è stata fatta per semplificare la logistica delle navette che portano gli invitati da e al matrimonio. Se sceglierete un'accommodation diversa da quelle indicate, non potremo garantire il passaggio con la navetta. <br><br>
+  Se le strutture proposte non fossero di vostro gradimento o non fossero disponibili, invitiamo gli ospiti a prenotare un alloggio nel centro di Montalcino in quanto la navetta farà una singola fermata a Montalcino e tutti gli alloggi saranno raggiungibili in un massimo di 10 minuti a piedi. <br><br>
+  Consigliamo ai nostri ospiti di prenotare in fretta (idealmente prima della fine del 2024), in quanto sarà alta stagione in Toscana e molte strutture potrebbero non essere più disponibili a breve. <br><br>
+  Vi preghiamo di farci sapere quando avete prenotato e in quale struttura in modo da poter organizzare le navette per tempo. <br>
+  </p>
+</div> 
+<!--     {% for section in site.guide[site.context] %}
       <h3>{{ section[0] }}</h3>
       <div class="row">
         {% for one in section[1] %}
@@ -43,3 +140,4 @@ billboard_class: billboard-bridge-walk
     </div>
   </section>
 {% endif %}
+ -->
